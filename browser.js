@@ -14,6 +14,8 @@ async function startBrowser() {
   } catch (err) {
     console.error('Could not create a browser instance...', err);
   }
+
+  return browser;
 };
 
 module.exports = {
